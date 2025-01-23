@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rozvrh učitele</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .hour-column {
+      background-color: #f9f9f9;
+      font-weight: bold;
+    }
+    .login-container {
+      margin-bottom: 20px;
+    }
+    .login-container input {
+      padding: 8px;
+      margin-right: 10px;
+    }
+    .login-container button {
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .login-container button:hover {
+      background-color: #45a049;
+    }
+    .reserved {
+      background-color: #FFDDDD;
+      color: #000;
+    }
+        .free {
+      background-color: #FFFFFF;
+      cursor: pointer;
+    }
+    .free:hover {
+      background-color: #DFF0D8;
+    }
+    .occupied {
+      background-color: #F0D8D8;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <h1>Rozvrh učitele</h1>
+
+  <div class="login-container">
+    <label for="teacher-name">Přihlašovací jméno:</label>
+    <input type="text" id="teacher-name" placeholder="Např. Petrnoušková Romana">
+    <button onclick="loadTimetable()">Načíst rozvrh</button>
+  </div>
+
+  <div id="timetable-container"></div>
+
+  <script>
+    async function loadTimetable() {
+      const teacherName = document.getElementById("teacher-name").value.trim();
+
+      // Načtení JSON dat z externího souboru
+      let timetableData;
+      try {
+        const response = await fetch('./output.json');
+        if (!response.ok) throw new Error("Chyba při načítání dat");
+        timetableData = await response.json();
+      } catch (error) {
+        alert("Nepodařilo se načíst data!");
+        console.error(error);
+        return;
+      }
+
+      // Najdi rozvrh pro daného učitele
+      const teacher = timetableData.find(t => t.name === teacherName);
+
+      if (!teacher) {
+        alert("Učitel nenalezen!");
+        return;
+      }
+
+      // Vytvoření tabulky
+      const container = document.getElementById("timetable-container");
+      container.innerHTML = ""; // Vyčisti předchozí obsah
+
+      const table = document.createElement("table");
+
+      // Hlavička tabulky
+      const thead = document.createElement("thead");
+      thead.innerHTML = `
+        <tr>
+          <th class="hour-column">Čas</th>
+          ${teacher.timetable.days.map(day => `<th>${day.dayName} (${day.dayDate})</th>`).join('')}
+        </tr>`;
+      table.appendChild(thead);
+
+      // Tělo tabulky
+      const tbody = document.createElement("tbody");
+
+      for (let hourIndex = 1; hourIndex < teacher.timetable.hours.length; hourIndex++) {
+        const row = document.createElement("tr");
+
+        // Najdi odpovídající hodinu podle indexu
+        const hour = teacher.timetable.hours[hourIndex];
+
+        // Přidej časovou osu do prvního sloupce
+        row.innerHTML = `<td class="hour-column">${hour ? `${hour.from} - ${hour.to}` : 'N/A'}</td>`;
+
+        // Další sloupce: Rozvrh pro jednotlivé dny
+        teacher.timetable.days.forEach(day => {
+          const cls = day.classes.find(c => c && c.classHourId === hourIndex); // classHourId začíná od 1
+          const isReserved = cls && cls.isReserved; // Kontrola, zda je hodina rezervována
+
+          row.innerHTML += `
+            <td class="${isReserved ? 'reserved' : 'free'}" 
+                onclick="${!isReserved ? `reserveHour('${teacher.name}', '${day.dayName}', '${hour.from} - ${hour.to}')` : ''}">
+              ${cls ? `
+                <strong>${cls.subject}</strong><br>
+                ${cls.room}<br>
+                ${cls.group}${isReserved ? '<br><em>(Rezervováno)</em>' : ''}` : 'Volno'}
+            </td>`;
+        });
+
+        tbody.appendChild(row);
+      }
+
+      table.appendChild(tbody);
+      container.appendChild(table);
+    }
+
+    function reserveHour(teacherName, dayName, time) {
+      const confirmReserve = confirm(`Chcete rezervovat hodinu pro učitele ${teacherName} na ${dayName} v čase ${time}?`);
+
+      if (confirmReserve) {
+        // Příklad odeslání dat na backend
+        fetch('/reserve', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            teacher: teacherName,
+            day: dayName,
+            time: time
+          })
+        })
+        .then(res => res.json())
+        .then(data => {
+          if (data.success) {
+            alert('Rezervace byla úspěšně provedena!');
+            loadTimetable(); // Obnov rozvrh po úspěšné rezervaci
+          } else {
+            alert('Rezervace se nezdařila: ' + data.message);
+          }
+        })
+        .catch(err => {
+          console.error('Chyba při rezervaci:', err);
+          alert('Došlo k chybě při rezervaci!');
+        });
+      }
+    }
+  </script>
+</body>
+</html>
