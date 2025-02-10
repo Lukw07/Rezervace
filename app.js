@@ -1,15 +1,17 @@
 const baka = require("./baka.js");
 const fs = require("fs");
-const db = require("./db.js")
-dotenv.config({ path: './process.env' });
-require("dotenv").config();
+const db = require("./db.js");
+const dotenv = require("dotenv");  // Přesunutí deklarace dotenv na začátek
+dotenv.config();  // nebo dotenv.config({ path: './process.env' }) pokud používáš vlastní soubor
+
 // Funkce pro načtení a uložení rozvrhu
 async function updateTimetables() {
   try {
     console.log("Spojeno s databází!"); 
     console.log("Spouštím aktualizaci rozvrhů...");
 
-    const bakaAuth = await baka.login("krystoftuma31", "8nB97Y9J");
+    // Použití environmentálních proměnných
+    const bakaAuth = await baka.login(process.env.BAKA_USER, process.env.BAKA_PASSWORD);
     const timetables = await baka.loadAllTeachers(bakaAuth);
 
     fs.writeFile("output.json", JSON.stringify(timetables), (err) => {
