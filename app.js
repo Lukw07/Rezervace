@@ -1,6 +1,7 @@
 const baka = require("./baka.js");
 const fs = require("fs");
 const db = require("./db.js")
+dotenv.config({ path: './process.env' });
 require("dotenv").config();
 // Funkce pro načtení a uložení rozvrhu
 async function updateTimetables() {
