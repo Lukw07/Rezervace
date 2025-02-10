@@ -1,5 +1,2 @@
-# Ignorovat všechny .env soubory
-.env
-
-# Ignorovat soubor s environmentálními proměnnými (pokud máš jiný název)
+# Ignorování citlivých souborů
 process.env
