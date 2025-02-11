@@ -146,34 +146,32 @@
     }
 
     function reserveHour(teacherName, dayName, time) {
-      const confirmReserve = confirm(`Chcete rezervovat hodinu pro učitele ${teacherName} na ${dayName} v čase ${time}?`);
-
-      if (confirmReserve) {
-        // Příklad odeslání dat na backend
-        fetch('/reserve', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            teacher: teacherName,
-            day: dayName,
-            time: time
-          })
-        })
-        .then(res => res.json())
-        .then(data => {
-          if (data.success) {
-            alert('Rezervace byla úspěšně provedena!');
-            loadTimetable(); // Obnov rozvrh po úspěšné rezervaci
-          } else {
-            alert('Rezervace se nezdařila: ' + data.message);
-          }
-        })
-        .catch(err => {
-          console.error('Chyba při rezervaci:', err);
-          alert('Došlo k chybě při rezervaci!');
-        });
+  const confirmReserve = confirm(`Chcete rezervovat hodinu pro učitele ${teacherName} na ${dayName} v čase ${time}?`);
+  if (confirmReserve) {
+    fetch('http://localhost:3000/reserve', {  // API adresa backendu
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        teacher: teacherName,
+        day: dayName,
+        time: time
+      })
+    })
+    .then(res => res.json())
+    .then(data => {
+      if (data.success) {
+        alert('Rezervace byla úspěšně provedena!');
+        loadTimetable(); // Aktualizace rozvrhu
+      } else {
+        alert('Rezervace se nezdařila: ' + data.message);
       }
-    }
+    })
+    .catch(err => {
+      console.error('Chyba při rezervaci:', err);
+      alert('Došlo k chybě při rezervaci!');
+    });
+  }
+}
   </script>
 </body>
 </html>
