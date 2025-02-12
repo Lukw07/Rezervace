@@ -8,6 +8,10 @@ dotenv.config({ path: './process.env' })
 const app = express();
 app.use(cors());
 app.use(express.json()); // Umožňuje přijímat JSON data v požadavcích
+app.get("/*.js", (req, res, next) => {
+    res.status(403).send("❌ Přístup zakázán");
+  });
+  
 
 // Připojení k databázi
 const db = mysql.createConnection({
