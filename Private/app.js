@@ -1,4 +1,3 @@
-Headers()
 const baka = require("./baka.js");
 const fs = require("fs");
 const db = require("./server.js");

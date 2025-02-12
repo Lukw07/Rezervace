@@ -1,8 +1,8 @@
-Headers()
 const express = require("express");
 const mysql = require("mysql2");
 const cors = require("cors");
 const dotenv = require("dotenv");
+const ip = require("ip");
 
 dotenv.config({ path: './process.env' })
 
@@ -50,6 +50,8 @@ app.post("/reserve", (req, res) => {
 
 // **Spuštění serveru**
 const PORT = process.env.PORT || 3000;
+const IP = ip.address();
 app.listen(PORT, () => {
     console.log(`Server běží na portu ${PORT}`);
+    console.log(`Server běží na IP: ${IP}`);
 });

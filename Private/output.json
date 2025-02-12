@@ -1142,7 +1142,7 @@
               "teacher": null,
               "room": "GC32",
               "group": "1ITC celá",
-              "theme": "",
+              "theme": "Parametry skriptů",
               "notice": ""
             },
             {
@@ -1153,7 +1153,7 @@
               "teacher": null,
               "room": "GC32",
               "group": "1ITC celá",
-              "theme": "",
+              "theme": "Parametry skriptu",
               "notice": ""
             },
             {
@@ -1545,7 +1545,7 @@
               "teacher": null,
               "room": "DOBR",
               "group": "E2 č3",
-              "theme": "",
+              "theme": "Soustružení čelní plochy",
               "notice": ""
             },
             {
@@ -1556,7 +1556,7 @@
               "teacher": null,
               "room": "DOBR",
               "group": "E2 č3",
-              "theme": "",
+              "theme": "Soustružení čelní plochy",
               "notice": ""
             },
             {
@@ -1567,7 +1567,7 @@
               "teacher": null,
               "room": "DOBR",
               "group": "E2 č3",
-              "theme": "",
+              "theme": "Soustružení čelní plochy",
               "notice": ""
             }
           ]
@@ -2096,7 +2096,7 @@
               "teacher": null,
               "room": "GF30",
               "group": "2ITB celá",
-              "theme": "",
+              "theme": "Samostatná práce",
               "notice": ""
             }
           ]
@@ -3028,7 +3028,7 @@
               "teacher": null,
               "room": "GB15",
               "group": "2ME celá",
-              "theme": "",
+              "theme": "exponenciální funkce",
               "notice": ""
             },
             {
@@ -3468,7 +3468,7 @@
               "teacher": null,
               "room": "GF29",
               "group": "2ITB celá",
-              "theme": "",
+              "theme": "3. pád",
               "notice": ""
             },
             {
@@ -3490,7 +3490,7 @@
               "teacher": null,
               "room": "GF29",
               "group": "2ITA celá",
-              "theme": "",
+              "theme": "Slovní zásoba",
               "notice": ""
             },
             {
@@ -3805,7 +3805,7 @@
               "teacher": null,
               "room": "UJ1",
               "group": "E3 p1",
-              "theme": "",
+              "theme": "Bridge- Canada",
               "notice": ""
             },
             {
@@ -3816,7 +3816,7 @@
               "teacher": null,
               "room": "UJ1",
               "group": "E2 p1",
-              "theme": "",
+              "theme": "Bridge- Canada",
               "notice": ""
             }
           ]
@@ -5152,7 +5152,7 @@
               "teacher": null,
               "room": "P-2",
               "group": "E1A celá",
-              "theme": "",
+              "theme": "Soustavy rovnic",
               "notice": ""
             },
             {
@@ -5163,7 +5163,7 @@
               "teacher": null,
               "room": "P-3",
               "group": "A2 celá",
-              "theme": "",
+              "theme": "Fotometrie",
               "notice": ""
             },
             {
@@ -5174,7 +5174,7 @@
               "teacher": null,
               "room": "2-4",
               "group": "E1A celá",
-              "theme": "",
+              "theme": "Gravitační pole",
               "notice": ""
             }
           ]
@@ -5467,7 +5467,7 @@
               "teacher": null,
               "room": "Z101",
               "group": "3ME M223",
-              "theme": "",
+              "theme": "2.4 - klopné obvody",
               "notice": ""
             },
             {
@@ -5478,7 +5478,7 @@
               "teacher": null,
               "room": "Z101",
               "group": "3ME M223",
-              "theme": "",
+              "theme": "2.4 - klopné obvody",
               "notice": ""
             },
             {
@@ -5489,7 +5489,7 @@
               "teacher": null,
               "room": "Z101",
               "group": "3ME M223",
-              "theme": "",
+              "theme": "2.4 - klopné obvody",
               "notice": ""
             },
             {
@@ -5500,7 +5500,7 @@
               "teacher": null,
               "room": "Z101",
               "group": "3ME M223",
-              "theme": "",
+              "theme": "2.4 - klopné obvody",
               "notice": ""
             },
             {
@@ -5511,7 +5511,7 @@
               "teacher": null,
               "room": "Z101",
               "group": "3ME M223",
-              "theme": "",
+              "theme": "2.4 - klopné obvody",
               "notice": ""
             },
             {
@@ -5522,7 +5522,7 @@
               "teacher": null,
               "room": "Z101",
               "group": "3ME M223",
-              "theme": "",
+              "theme": "2.4 - klopné obvody",
               "notice": ""
             }
           ]
@@ -6317,7 +6317,7 @@
               "teacher": null,
               "room": "Z127",
               "group": "3DE D221",
-              "theme": "",
+              "theme": "suplování",
               "notice": ""
             },
             {
@@ -6328,7 +6328,7 @@
               "teacher": null,
               "room": "Z127",
               "group": "3DE D221",
-              "theme": "",
+              "theme": "suplování",
               "notice": ""
             },
             {
@@ -6339,7 +6339,7 @@
               "teacher": null,
               "room": "Z127",
               "group": "3DE D221",
-              "theme": "",
+              "theme": "suplování",
               "notice": ""
             },
             {
@@ -6350,7 +6350,7 @@
               "teacher": null,
               "room": "Z127",
               "group": "3DE D221",
-              "theme": "",
+              "theme": "suplování",
               "notice": ""
             }
           ]
@@ -7115,7 +7115,7 @@
               "teacher": null,
               "room": "GF17",
               "group": "3ITC celá",
-              "theme": "",
+              "theme": "Základní skripty",
               "notice": ""
             }
           ]
@@ -7419,7 +7419,7 @@
               "teacher": null,
               "room": "GB13",
               "group": "3ES celá",
-              "theme": "",
+              "theme": "bezkontaktní spínače",
               "notice": ""
             },
             {
@@ -7430,7 +7430,7 @@
               "teacher": null,
               "room": "GB13",
               "group": "3ES celá",
-              "theme": "",
+              "theme": "asynchronní motor - opakování",
               "notice": ""
             },
             {
@@ -8445,7 +8445,7 @@
               "teacher": null,
               "room": "CPO1",
               "group": "D3 celá",
-              "theme": "",
+              "theme": "Kloubové mechanismy",
               "notice": ""
             },
             {
@@ -8456,7 +8456,7 @@
               "teacher": null,
               "room": "KOM",
               "group": "D3 p2",
-              "theme": "",
+              "theme": "Rozdělení měřidel, zásady správného měření",
               "notice": ""
             },
             {
@@ -8467,7 +8467,7 @@
               "teacher": null,
               "room": "KOM",
               "group": "D3 p2",
-              "theme": "",
+              "theme": "Rozdělení měřidel, zásady správného měření",
               "notice": ""
             },
             {
@@ -8821,7 +8821,7 @@
               "teacher": null,
               "room": "P-2",
               "group": "E1A celá",
-              "theme": "",
+              "theme": "Výkres elektronického obvodu",
               "notice": ""
             },
             {
@@ -8832,7 +8832,7 @@
               "teacher": null,
               "room": "P-2",
               "group": "E1A celá",
-              "theme": "",
+              "theme": "Polovodiče",
               "notice": ""
             },
             {
@@ -8843,7 +8843,7 @@
               "teacher": null,
               "room": "1-3",
               "group": "E1B celá",
-              "theme": "",
+              "theme": "Polovodiče",
               "notice": ""
             },
             {
@@ -8854,7 +8854,7 @@
               "teacher": null,
               "room": "PG2",
               "group": "E1B p2",
-              "theme": "",
+              "theme": "Výkres v AutoCADu - Součást 2",
               "notice": ""
             },
             {
@@ -8865,7 +8865,7 @@
               "teacher": null,
               "room": "PG2",
               "group": "E1B p2",
-              "theme": "",
+              "theme": "Výkres v AutoCADu - Součást 3",
               "notice": ""
             }
           ]
@@ -8986,7 +8986,7 @@
               "teacher": null,
               "room": "GB14",
               "group": "2DE celá",
-              "theme": "",
+              "theme": "model atomu, laser",
               "notice": ""
             },
             {
@@ -8997,7 +8997,7 @@
               "teacher": null,
               "room": "GB13",
               "group": "3ES celá",
-              "theme": "",
+              "theme": "Elektropneumatika, akční členy",
               "notice": ""
             },
             {
@@ -9008,7 +9008,7 @@
               "teacher": null,
               "room": "GB17",
               "group": "3ME celá",
-              "theme": "",
+              "theme": "Geometrické znázornění obrazu v zrcadlech 5/5",
               "notice": ""
             },
             {
@@ -9019,7 +9019,7 @@
               "teacher": null,
               "room": "GB16",
               "group": "4ME celá",
-              "theme": "",
+              "theme": "Control Web - aplikace ",
               "notice": ""
             }
           ]
@@ -9036,7 +9036,7 @@
               "teacher": null,
               "room": "GB16",
               "group": "4ME celá",
-              "theme": "",
+              "theme": "dilatace času, kontrakce délky",
               "notice": ""
             },
             {
@@ -9047,7 +9047,7 @@
               "teacher": null,
               "room": "GB13",
               "group": "3ES celá",
-              "theme": "",
+              "theme": "Elektropneumatika, akční členy",
               "notice": ""
             },
             {
@@ -9058,7 +9058,7 @@
               "teacher": null,
               "room": "GF3",
               "group": "2ITC celá",
-              "theme": "",
+              "theme": "chemické zdroje el. napětí",
               "notice": ""
             }
           ]
@@ -9075,7 +9075,7 @@
               "teacher": null,
               "room": "GF3",
               "group": "2ITC celá",
-              "theme": "",
+              "theme": "chemické zdroje el. napětí",
               "notice": ""
             },
             {
@@ -9086,7 +9086,7 @@
               "teacher": null,
               "room": "GC28",
               "group": "3ITB celá",
-              "theme": "",
+              "theme": "polarizace 1/1",
               "notice": ""
             },
             {
@@ -9390,7 +9390,7 @@
               "teacher": null,
               "room": "2-2",
               "group": "S3A celá",
-              "theme": "",
+              "theme": "Průsečíky přímky s osami",
               "notice": ""
             },
             {
@@ -9401,7 +9401,7 @@
               "teacher": null,
               "room": "1-1",
               "group": "D4 celá",
-              "theme": "",
+              "theme": "Užití integrálů, procvičení",
               "notice": ""
             },
             {
@@ -9412,7 +9412,7 @@
               "teacher": null,
               "room": "P-4",
               "group": "E4 celá",
-              "theme": "",
+              "theme": "Užití integrálů, procvičení",
               "notice": ""
             }
           ]
@@ -9683,7 +9683,7 @@
               "teacher": null,
               "room": "GB17",
               "group": "1ME celá",
-              "theme": "",
+              "theme": "Napoleon Bonaparte",
               "notice": ""
             },
             {
@@ -10727,7 +10727,7 @@
               "teacher": null,
               "room": "AVU2",
               "group": "E2 celá",
-              "theme": "",
+              "theme": "Dekodér 1 z 10",
               "notice": ""
             },
             {
@@ -10738,7 +10738,7 @@
               "teacher": null,
               "room": "EL1",
               "group": "S2A t3",
-              "theme": "",
+              "theme": "Ověření Kirch. zákonů",
               "notice": ""
             },
             {
@@ -10749,7 +10749,7 @@
               "teacher": null,
               "room": "EL1",
               "group": "S2A t3",
-              "theme": "",
+              "theme": "Ověření Kirch. zákonů",
               "notice": ""
             }
           ]
@@ -11088,7 +11088,7 @@
               "teacher": null,
               "room": "2-5",
               "group": "E1C celá",
-              "theme": "",
+              "theme": "Grafická stránka jazyka",
               "notice": ""
             },
             {
@@ -11099,7 +11099,7 @@
               "teacher": null,
               "room": "UFYZ",
               "group": "D1 celá",
-              "theme": "",
+              "theme": "Grafická stránka jazyka",
               "notice": ""
             },
             {
@@ -11110,7 +11110,7 @@
               "teacher": null,
               "room": "2-4",
               "group": "E1C celá",
-              "theme": "",
+              "theme": "České země v 16. st.",
               "notice": ""
             },
             {
@@ -11121,7 +11121,7 @@
               "teacher": null,
               "room": "2-4",
               "group": "E1C celá",
-              "theme": "",
+              "theme": "České země v 16. st.",
               "notice": ""
             }
           ]
@@ -11685,7 +11685,7 @@
               "teacher": null,
               "room": "UFYZ",
               "group": "E1A celá",
-              "theme": "",
+              "theme": "Alkalické kovy",
               "notice": ""
             },
             {
@@ -11696,7 +11696,7 @@
               "teacher": null,
               "room": "2-3",
               "group": "D1 celá",
-              "theme": "",
+              "theme": "Kovyc alkalických zemin",
               "notice": ""
             }
           ]
@@ -12965,7 +12965,7 @@
               "teacher": null,
               "room": "PU2",
               "group": "SA4 celá",
-              "theme": "",
+              "theme": "Motivační dopis a CV, přijímací pohovor, výběrové řízení",
               "notice": ""
             },
             {
@@ -12976,7 +12976,7 @@
               "teacher": null,
               "room": "1-3",
               "group": "S3B celá",
-              "theme": "",
+              "theme": "Cenné papíry kapitálového trhu, akcie",
               "notice": ""
             },
             {
@@ -12987,7 +12987,7 @@
               "teacher": null,
               "room": "2-2",
               "group": "S3A celá",
-              "theme": "",
+              "theme": "Burzy a burzovní obchody",
               "notice": ""
             },
             {
@@ -13573,7 +13573,7 @@
               "teacher": null,
               "room": "GF28",
               "group": "1ME S2",
-              "theme": "",
+              "theme": "2E: Word building",
               "notice": ""
             },
             {
@@ -13584,7 +13584,7 @@
               "teacher": null,
               "room": "GF28",
               "group": "3ITC celá",
-              "theme": "",
+              "theme": "3B Modal verbs",
               "notice": ""
             },
             {
@@ -13595,7 +13595,7 @@
               "teacher": null,
               "room": "GF28",
               "group": "4ITB S2",
-              "theme": "",
+              "theme": "8B Reported speech ",
               "notice": ""
             },
             {
@@ -14090,7 +14090,7 @@
               "teacher": null,
               "room": "GPOS",
               "group": "1ITB celá",
-              "theme": "",
+              "theme": "Gymnastika",
               "notice": ""
             },
             {
@@ -14101,7 +14101,7 @@
               "teacher": null,
               "room": "GTV1",
               "group": "4ITB S2",
-              "theme": "",
+              "theme": "Gymnastika",
               "notice": ""
             }
           ]
@@ -15238,7 +15238,7 @@
               "teacher": null,
               "room": "AVU",
               "group": "E1B celá",
-              "theme": "",
+              "theme": "Kolonialismus",
               "notice": ""
             },
             {
@@ -15249,7 +15249,7 @@
               "teacher": null,
               "room": "AVU",
               "group": "E1B celá",
-              "theme": "",
+              "theme": "Kolonialismus",
               "notice": ""
             },
             {
@@ -15260,7 +15260,7 @@
               "teacher": null,
               "room": "TCV",
               "group": "S3A celá",
-              "theme": "",
+              "theme": "Badminton - dvouhra",
               "notice": ""
             },
             {
@@ -15271,7 +15271,7 @@
               "teacher": null,
               "room": "TCV",
               "group": "S3A celá",
-              "theme": "",
+              "theme": "Badminton - dvouhra",
               "notice": ""
             }
           ]
@@ -15879,7 +15879,7 @@
               "teacher": null,
               "room": "GF4",
               "group": "3ITA celá",
-              "theme": "",
+              "theme": "Rozvíjející vět členy",
               "notice": ""
             },
             {
@@ -15890,7 +15890,7 @@
               "teacher": null,
               "room": "GU2",
               "group": "2LF celá",
-              "theme": "",
+              "theme": "Přemyslovský stát - království",
               "notice": ""
             },
             {
@@ -15901,7 +15901,7 @@
               "teacher": null,
               "room": "GB16",
               "group": "4ME celá",
-              "theme": "",
+              "theme": "V. Havel",
               "notice": ""
             },
             {
@@ -15912,7 +15912,7 @@
               "teacher": null,
               "room": "GF5",
               "group": "2ITA celá",
-              "theme": "",
+              "theme": "Větné členy rozvíjející",
               "notice": ""
             }
           ]
@@ -17058,7 +17058,7 @@
               "teacher": null,
               "room": "GC27",
               "group": "1ITB celá",
-              "theme": "",
+              "theme": "Typy, GUA, LLA statická konfigurace, dynamická konfigurace, IPv6 multicast, subneting",
               "notice": ""
             },
             {
@@ -17069,7 +17069,7 @@
               "teacher": null,
               "room": "GC27",
               "group": "1ITB celá",
-              "theme": "",
+              "theme": "Typy, GUA, LLA statická konfigurace, dynamická konfigurace, IPv6 multicast, subneting",
               "notice": ""
             },
             {
@@ -17080,7 +17080,7 @@
               "teacher": null,
               "room": "GF17",
               "group": "3ITC celá",
-              "theme": "",
+              "theme": "19. Návrhy (UML, ERD, wireframe) (1/2)",
               "notice": ""
             }
           ]
@@ -19350,7 +19350,7 @@
               "teacher": null,
               "room": "GU1",
               "group": "3LF celá",
-              "theme": "",
+              "theme": "Vektory",
               "notice": ""
             },
             {
@@ -19361,7 +19361,7 @@
               "teacher": null,
               "room": "GF5",
               "group": "2ITA celá",
-              "theme": "",
+              "theme": "Rovnice řešené v C",
               "notice": ""
             },
             {
@@ -19372,7 +19372,7 @@
               "teacher": null,
               "room": "GU2",
               "group": "2LF celá",
-              "theme": "",
+              "theme": "Logaritmické a exponenciální rce",
               "notice": ""
             }
           ]
@@ -19537,7 +19537,7 @@
               "teacher": null,
               "room": "GA8",
               "group": "1LF celá",
-              "theme": "Příklady",
+              "theme": "Lineární rce z maturit",
               "notice": ""
             },
             {
@@ -19598,7 +19598,7 @@
               "teacher": null,
               "room": "GB14",
               "group": "2DE celá",
-              "theme": "",
+              "theme": "Řešení kvadratické fce, vrchol",
               "notice": ""
             },
             {
@@ -19609,7 +19609,7 @@
               "teacher": null,
               "room": "GF30",
               "group": "2ITB celá",
-              "theme": "",
+              "theme": "Samostatná práce",
               "notice": ""
             }
           ]
@@ -19857,7 +19857,7 @@
               "teacher": null,
               "room": "GB13",
               "group": "3ES celá",
-              "theme": "",
+              "theme": "Složená tělesa",
               "notice": ""
             },
             {
@@ -19868,7 +19868,7 @@
               "teacher": null,
               "room": "GF4",
               "group": "3ITA celá",
-              "theme": "",
+              "theme": "Odchylky, vzdálenosti",
               "notice": ""
             }
           ]
@@ -20864,28 +20864,6 @@
               "group": "4ITC celá",
               "theme": "",
               "notice": ""
-            },
-            {
-              "subject": "Informační a komunikační technologie",
-              "classHourId": 6,
-              "startDateTime": "2025-02-13T12:40:00.000Z",
-              "endDateTime": "2025-02-13T13:25:00.000Z",
-              "teacher": null,
-              "room": "GC30",
-              "group": "2ME S2",
-              "theme": "",
-              "notice": ""
-            },
-            {
-              "subject": "Informační a komunikační technologie",
-              "classHourId": 7,
-              "startDateTime": "2025-02-13T13:35:00.000Z",
-              "endDateTime": "2025-02-13T14:20:00.000Z",
-              "teacher": null,
-              "room": "GC30",
-              "group": "2ME S2",
-              "theme": "",
-              "notice": ""
             }
           ]
         },
@@ -21679,7 +21657,7 @@
               "teacher": null,
               "room": "1-3",
               "group": "D1 p2",
-              "theme": "",
+              "theme": "Exam skills trainer: reading + listening",
               "notice": ""
             },
             {
@@ -21690,7 +21668,7 @@
               "teacher": null,
               "room": "AVU2",
               "group": "E3 celá",
-              "theme": "",
+              "theme": "Vzájemná poloha přímky a roviny",
               "notice": ""
             }
           ]
@@ -21790,7 +21768,7 @@
               "teacher": null,
               "room": "UJ2",
               "group": "D1 p1",
-              "theme": "",
+              "theme": "Exam skills trainer: reading + listening",
               "notice": ""
             },
             {
@@ -22016,7 +21994,7 @@
               "teacher": null,
               "room": "GC10",
               "group": "4ITC celá",
-              "theme": "",
+              "theme": "61. integrační metody 2/8",
               "notice": ""
             },
             {
@@ -22027,7 +22005,7 @@
               "teacher": null,
               "room": "GF30",
               "group": "2ITB celá",
-              "theme": "",
+              "theme": "vlastnosti funkcí (sudá a lichá funkce,prostá funkce)",
               "notice": ""
             }
           ]
@@ -22679,7 +22657,7 @@
               "teacher": null,
               "room": "P-4",
               "group": "E4 celá",
-              "theme": "",
+              "theme": "Religionistika",
               "notice": ""
             },
             {
@@ -22690,7 +22668,7 @@
               "teacher": null,
               "room": "P-3",
               "group": "A2 celá",
-              "theme": "",
+              "theme": "Symbolicko-komplexni metoda řešení obvodu AC",
               "notice": ""
             },
             {
@@ -23800,7 +23778,7 @@
               "teacher": null,
               "room": "GB15",
               "group": "2ME S1",
-              "theme": "",
+              "theme": "role-playing, a successful entrepreneur",
               "notice": ""
             }
           ]
@@ -24115,7 +24093,7 @@
               "teacher": null,
               "room": "2-3",
               "group": "D1 celá",
-              "theme": "",
+              "theme": "Sloučeniny rovnovážného diagramu Fe - C",
               "notice": ""
             },
             {
@@ -24126,7 +24104,7 @@
               "teacher": null,
               "room": "P-3",
               "group": "A2 celá",
-              "theme": "",
+              "theme": "Hydromechanika - spojené nádoby a měření tlaku",
               "notice": ""
             }
           ]
@@ -25014,7 +24992,7 @@
               "teacher": null,
               "room": "PG2",
               "group": "D3 p1",
-              "theme": "",
+              "theme": "Těsnící víko",
               "notice": ""
             },
             {
@@ -25025,7 +25003,7 @@
               "teacher": null,
               "room": "PG2",
               "group": "D3 p1",
-              "theme": "",
+              "theme": "Těsnící víko",
               "notice": ""
             }
           ]
@@ -25554,7 +25532,7 @@
               "teacher": null,
               "room": "GF30",
               "group": "2ITB celá",
-              "theme": "",
+              "theme": "Binary Trees, B-trees, Binární stromy, B-strom",
               "notice": ""
             }
           ]
@@ -25995,7 +25973,7 @@
               "teacher": null,
               "room": "1-5",
               "group": "S1B celá",
-              "theme": "",
+              "theme": "105 - nerovnice",
               "notice": ""
             },
             {
@@ -26006,7 +25984,7 @@
               "teacher": null,
               "room": "1-5",
               "group": "E1C celá",
-              "theme": "",
+              "theme": "105 - nerovnice",
               "notice": ""
             }
           ]
@@ -26277,7 +26255,7 @@
               "teacher": null,
               "room": "1-1",
               "group": "S4B celá",
-              "theme": "",
+              "theme": "Novověká filozofie",
               "notice": ""
             }
           ]
@@ -26972,7 +26950,7 @@
               "teacher": null,
               "room": "UJ1",
               "group": "E2 p2",
-              "theme": "",
+              "theme": "7D: Grammar - Past Perfect",
               "notice": ""
             },
             {
@@ -26983,7 +26961,7 @@
               "teacher": null,
               "room": "UJ2",
               "group": "E3 p2",
-              "theme": "",
+              "theme": "Education S, Vocabulary",
               "notice": ""
             },
             {
@@ -26994,7 +26972,7 @@
               "teacher": null,
               "room": "1-5",
               "group": "S1B celá",
-              "theme": "",
+              "theme": "Films, Extra Speaking Activities",
               "notice": ""
             }
           ]
@@ -27568,7 +27546,7 @@
               "teacher": null,
               "room": "CPO1",
               "group": "D2 celá",
-              "theme": "",
+              "theme": "Karosérie automobilů",
               "notice": ""
             },
             {
@@ -27579,7 +27557,7 @@
               "teacher": null,
               "room": "PU1",
               "group": "S1A p2",
-              "theme": "",
+              "theme": "Hardware",
               "notice": ""
             },
             {
@@ -27590,7 +27568,7 @@
               "teacher": null,
               "room": "PU1",
               "group": "S1A p2",
-              "theme": "",
+              "theme": "Hardware",
               "notice": ""
             }
           ]
@@ -28729,7 +28707,7 @@
               "teacher": null,
               "room": "P-3",
               "group": "A2 celá",
-              "theme": "",
+              "theme": "Realismus ve světové literatuře",
               "notice": ""
             },
             {
@@ -28740,7 +28718,7 @@
               "teacher": null,
               "room": "STT",
               "group": "S2B celá",
-              "theme": "",
+              "theme": "Realismus ve světové literatuře",
               "notice": ""
             },
             {
@@ -28751,7 +28729,7 @@
               "teacher": null,
               "room": "P-2",
               "group": "S3B celá",
-              "theme": "",
+              "theme": "Meziválečmá próza",
               "notice": ""
             },
             {
@@ -28762,7 +28740,7 @@
               "teacher": null,
               "room": "P-2",
               "group": "D4 celá",
-              "theme": "",
+              "theme": "Česká próza po r. 1989",
               "notice": ""
             }
           ]
@@ -28954,7 +28932,7 @@
               "teacher": null,
               "room": "GB18",
               "group": "1DE celá",
-              "theme": "",
+              "theme": "značky elektrotechnických komponent, značky elektrotechnických komponent ",
               "notice": ""
             },
             {
@@ -28965,7 +28943,7 @@
               "teacher": null,
               "room": "GB18",
               "group": "1DE celá",
-              "theme": "",
+              "theme": "značky elektrotechnických komponent ",
               "notice": ""
             },
             {
@@ -28976,7 +28954,7 @@
               "teacher": null,
               "room": "GB17",
               "group": "1ME celá",
-              "theme": "",
+              "theme": "značky elektrotechnických komponent ",
               "notice": ""
             },
             {
@@ -28987,7 +28965,7 @@
               "teacher": null,
               "room": "GB17",
               "group": "1ME celá",
-              "theme": "",
+              "theme": "značky elektrotechnických komponent ",
               "notice": ""
             }
           ]
@@ -29459,7 +29437,7 @@
               "teacher": null,
               "room": "Z132",
               "group": "3ME M224",
-              "theme": "",
+              "theme": "3.2 – Elektrická zařízení v obytných budovách",
               "notice": ""
             },
             {
@@ -29470,7 +29448,7 @@
               "teacher": null,
               "room": "Z132",
               "group": "3ME M224",
-              "theme": "",
+              "theme": "3.2 – Elektrická zařízení v obytných budovách",
               "notice": ""
             },
             {
@@ -29481,7 +29459,7 @@
               "teacher": null,
               "room": "Z132",
               "group": "3ME M224",
-              "theme": "",
+              "theme": "3.2 – Elektrická zařízení v obytných budovách",
               "notice": ""
             },
             {
@@ -29492,7 +29470,7 @@
               "teacher": null,
               "room": "Z132",
               "group": "3ME M224",
-              "theme": "",
+              "theme": "3.2 – Elektrická zařízení v obytných budovách",
               "notice": ""
             },
             {
@@ -29503,7 +29481,7 @@
               "teacher": null,
               "room": "Z132",
               "group": "3ME M224",
-              "theme": "",
+              "theme": "3.2 – Elektrická zařízení v obytných budovách",
               "notice": ""
             }
           ]
@@ -30009,7 +29987,7 @@
               "teacher": null,
               "room": "TCV",
               "group": "A3 tev, SA4 a",
-              "theme": "",
+              "theme": "FUTSAL ( HČJ ,herní systémy, pravidla hry, individuální rozhodování , testování)",
               "notice": ""
             },
             {
@@ -30020,7 +29998,7 @@
               "teacher": null,
               "room": "TCV",
               "group": "A3 tev, SA4 a",
-              "theme": "",
+              "theme": "Základy sebeobrany",
               "notice": ""
             }
           ]
@@ -30727,7 +30705,7 @@
               "teacher": null,
               "room": "GB14",
               "group": "2DE celá",
-              "theme": "",
+              "theme": "Základní hodnoty a principy demokracie",
               "notice": ""
             }
           ]
@@ -31737,7 +31715,7 @@
               "teacher": null,
               "room": "1-5",
               "group": "S1B celá",
-              "theme": "",
+              "theme": "Kondenzátory dokončení",
               "notice": ""
             },
             {
@@ -31748,7 +31726,7 @@
               "teacher": null,
               "room": "AUC",
               "group": "SA4 sp1",
-              "theme": "",
+              "theme": "Pneumatika úlohy č. 5 až 8.",
               "notice": ""
             },
             {
@@ -31759,7 +31737,7 @@
               "teacher": null,
               "room": "AUC",
               "group": "SA4 sp1",
-              "theme": "",
+              "theme": "Pneumatika úlohy č. 5 až 8.",
               "notice": ""
             }
           ]
@@ -32074,7 +32052,7 @@
               "teacher": null,
               "room": "P-4",
               "group": "E4 celá",
-              "theme": "",
+              "theme": "Příslušenství VE",
               "notice": ""
             }
           ]
