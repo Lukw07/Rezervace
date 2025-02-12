@@ -1,4 +1,5 @@
 //Autor scriptu : Lukáš Poddaný, 2025 
+Headers()
 const https = require("https");
 const { parse } = require("node-html-parser");
 

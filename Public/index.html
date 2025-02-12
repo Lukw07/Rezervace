@@ -79,7 +79,7 @@
       // Načtení JSON dat z externího souboru
       let timetableData;
       try {
-        const response = await fetch('./output.json');
+        const response = await fetch('../Private/output.json');
         if (!response.ok) throw new Error("Chyba při načítání dat");
         timetableData = await response.json();
       } catch (error) {
